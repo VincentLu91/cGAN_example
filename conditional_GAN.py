@@ -229,7 +229,7 @@ def generate_latent_points(latent_dim, n_samples, n_classes=10):
     return [z_input, labels]
 
 # create and save a plot of generated images
-def sae_plot(examples, n):
+def save_plot(examples, n):
     # plot images
     for i in range(n * n):
         # define subplot
