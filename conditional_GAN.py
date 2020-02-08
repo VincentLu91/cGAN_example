@@ -239,7 +239,7 @@ def save_plot(examples, n):
         # plot raw pixel data
         pyplot.imshow(examples[i, :, :, 0], cmap='gray_r')
     #pyplot.show()
-    plt.savefig('cGAN_output.png')
+    pyplot.savefig('cGAN_output.png')
 
 # load model
 model = load_model('cgan_generator.h5')
